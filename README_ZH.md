@@ -32,7 +32,8 @@
 
 1. 下载代码: `git clone https://github.com/apache/dubbo-admin.git`
 2. 在 `dubbo-admin-server/src/main/resources/application.properties`中指定注册中心地址
-3. 构建
+3. 将代码切换到master分支 `git checkout master`
+4. 构建
 
     > - `mvn clean package -Dmaven.test.skip=true`  
 4. 启动 
