@@ -33,8 +33,9 @@ service governance follows the version of Dubbo 2.7, and compatible for Dubbo 2.
 ### Production Setup
 
 1. Clone source code on develop branch `git clone https://github.com/apache/dubbo-admin.git`
-2. Specify registry address in `dubbo-admin-server/src/main/resources/application.properties`
-3. Build
+2. Switch to master branch `git checkout master`
+3. Specify registry address in `dubbo-admin-server/src/main/resources/application.properties`
+4. Build
 
     > - `mvn clean package -Dmaven.test.skip=true`  
 4. Start 
